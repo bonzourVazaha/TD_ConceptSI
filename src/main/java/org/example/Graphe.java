@@ -1,10 +1,11 @@
-package TD2_CASI;
+package org.example;
 
 import java.util.ArrayList;
 import java.util.*;
 
 public class Graphe {
     ArrayList<Noeud> noeuds = new ArrayList<Noeud>();
+
     public void supprimerPersonne(String prenom) {
         Iterator<Noeud> n = noeuds.iterator();
         while (this.noeuds.hasNext() ) {
